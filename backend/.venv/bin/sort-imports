@@ -1,0 +1,6 @@
+#!/Users/apple/Desktop/vscode/stt_tts/.venv/bin/python3.11
+import sys
+from scripts import sort_imports
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(sort_imports())
